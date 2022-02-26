@@ -2,6 +2,7 @@
 # GIT Link - https://github.com/20CS025Abhishek/Programming-In-Python.git
 
 # Input test cases
+print("Input: ")
 n = int(input("Enter test case no: "))
 
 sList = list()
@@ -25,6 +26,9 @@ for i in range(n):
 
     list1.sort()
     list2.sort()
+
+    print()
+    print("Output: ")
 
     if str(list1) == str(list2):
         print("YES")

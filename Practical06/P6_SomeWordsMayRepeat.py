@@ -17,7 +17,12 @@ for i in range(n):
     else:
         words[word] = 1
 
+print()
+print("Output:")
+
 print(len(words))
 
 for i, j in words.items():
     print(j, end = " ")
+
+print()

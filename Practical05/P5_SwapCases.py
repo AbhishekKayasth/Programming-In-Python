@@ -12,5 +12,9 @@ for i in range(len(str)):
         swap += str[i].upper()
     elif(str[i].isupper()):
         swap += str[i].lower()
+    else:
+        swap += str[i]
 
+print()
+print("Output: ")
 print(swap)
